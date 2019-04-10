@@ -41,6 +41,7 @@
             this.btnRun.TabIndex = 0;
             this.btnRun.Text = "Find Words";
             this.btnRun.UseVisualStyleBackColor = true;
+            this.btnRun.Click += new System.EventHandler(this.btnRun_Click);
             // 
             // tbInputLetter
             // 
